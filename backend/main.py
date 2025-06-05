@@ -6,7 +6,7 @@ from backend.domain import ai_router
 app = FastAPI()
 
 origins = [
-    "http://localhost:5173"
+    "http://localhost:5000"
 ]
 
 app.add_middleware(
